@@ -12,4 +12,10 @@ public class StudentController {
     public String studentInfo(){
         return "this is college information";
     }
+
+    @GetMapping("/studentAdd")
+    public String studentAddress(){
+        return "this is Student address information";
+    }
+
 }
